@@ -1,11 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Counter from './components/Counter'
 
-function App() {
+const App = () => {
+  const [ count, setCount] = useState(0);
   return (
     <div className="App">
-      Fcuking
+      <Counter count={count} setCount={setCount}/>
     </div>
   );
 }
