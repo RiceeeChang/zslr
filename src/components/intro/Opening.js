@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Opening = (props) => {
 
     return (
-        <Link to="second">
+        <Link to="/">
             <div className='opening'>
             </div>
         </Link>

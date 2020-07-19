@@ -1,35 +1,30 @@
 import React from 'react'
-import { BrowserRouter, Switch, Route, NavLink } from 'react-router-dom'
+
+import SecondMenu from '../SecondMenu'
+import SecondSwitch from '../SecondSwitch'
+
+import Service from './Service.js'
+
+import cooperationImage from '../../img/cooperation.png'
 
 const Management = (props) => {
+    const items = [
+        { 'name': '服務內涵', 'path': '', 'component': Service},
+        { 'name': '合作案例', 'path': '/cooperation', 'component': Cooperate},
+    ]
 
     return (
-        <BrowserRouter>
-            <div className='second-menu'>
-                <div className='menu-item'>
-                    <NavLink to='property-management'>服務內涵</NavLink>
-                </div>
-                <div className='divider'></div>
-                <div className='menu-item'>
-                    <NavLink to='cooperate'>合作案例</NavLink>
-                </div>
-            </div>
-            <Switch>
-                <Route component={Service}/>
-                <Route path='/cooperate' component={Cooperate}/>
-            </Switch>
-        </BrowserRouter>
+        <div>
+            <SecondMenu items={items} positionClassName='management-menu' url={props.match.url} />
+            <SecondSwitch items={items} url={props.match.url} />
+        </div>
     )
 }
 
-const Service = (props) => {
-    return (
-        <div>服務內涵 popup</div>
-    )
-}
+
 const Cooperate = (props) => {
     return (
-        <div>Cooperate</div>
+        <img src={cooperationImage} alt='合作案例'/>
     )
 }
 

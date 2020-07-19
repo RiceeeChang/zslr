@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  width: 100vw;
+  height: 100vh;
 }
 
 code {
@@ -12,6 +15,11 @@ code {
     monospace;
 }
 
+@font-face {
+  font-family: 'GenWanMinTW-Light';
+  src:
+    url(./fonts/GenWanMin-L.ttc);
+}
 
 @font-face {
   font-family: 'GenWanMinTW-Regular';
@@ -22,9 +30,25 @@ code {
 }
 
 @font-face {
-  font-family: 'GenWanMinTW-Regular';
+  font-family: 'GenWanMinTW-SemiBold';
   font-weight: normal;
-  font-style: Bold;
+  font-style: normal;
   src: 
     url(./fonts/GenWanMin-SB.ttc);
+}
+
+@font-face {
+  font-family: 'Copperplate-Regular';
+  font-weight: normal;
+  font-style: normal;
+  src: 
+    url(./fonts/Copperplate.ttf);
+}
+
+@font-face {
+  font-family: 'Copperplate-Light';
+  font-weight: normal;
+  font-style: normal;
+  src:
+    url(./fonts/Copperplate\ Light.ttf);
 }

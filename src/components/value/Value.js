@@ -1,80 +1,65 @@
 import React from 'react'
-import { BrowserRouter, Switch, Route, NavLink } from 'react-router-dom'
+
+import SecondMenu from '../SecondMenu'
+import SecondSwitch from '../SecondSwitch'
+
+import futureImage from '../../img/未來啟航.png'
+import nationalImage from '../../img/國際盛宴.png'
+import lifevalueImage from '../../img/生活價值.png'
+import cultureenvImage from '../../img/文創氛圍.png'
+import lifewalkingImage from '../../img/日常散策.png'
 
 
 const Value = (props) => {
+    const items = [
+        { 'name': '未來啟航', 'path': '', 'component': Future},
+        { 'name': '國際盛宴', 'path': '/national', 'component': National},
+        { 'name': '生活價值', 'path': '/life-value', 'component': LifeValue},
+        { 'name': '文創氛圍', 'path': '/culture-environment', 'component': CultureEnv},
+        { 'name': '日常散策', 'path': '/life-walking', 'component': LifeWalking},
+        { 'name': '生活機能圖', 'path': '/life-map', 'component': LifeMap},
+    ]
 
     return (
-        <BrowserRouter>
-            <div className='second-menu'>
-                <div className='menu-item'>
-                    <NavLink to='lot-value'>未來啟航</NavLink>
-                </div>
-                <div className='divider'></div>
-                <div className='menu-item'>
-                    <NavLink to='national'>國際盛宴</NavLink>
-                </div>
-                <div className='divider'></div>
-                <div className='menu-item'>
-                    <NavLink to='life-value'>生活價值</NavLink>
-                </div>
-                <div className='divider'></div>
-                <div className='menu-item'>
-                    <NavLink to='culture-environment'>文創氛圍</NavLink>
-                </div>
-                <div className='divider'></div>
-                <div className='menu-item'>
-                    <NavLink to='life-walking'>日常散策</NavLink>
-                </div>
-                <div className='divider'></div>
-                <div className='menu-item'>
-                    <NavLink to='life-map'>生活機能圖</NavLink>
-                </div>
-            </div>
-            <Switch>
-                <Route component={Future}/>
-                <Route path='/national' component={National}/>
-                <Route path='/life-value' component={LifeValue}/>
-                <Route path='/culture-environment' component={CultureEnv}/>
-                <Route path='/life-walking' component={LifeWalking}/>
-                <Route path='/life-map' component={LifeMap}/>
-            </Switch>
-        </BrowserRouter>
+        <div>
+            <SecondMenu items={items} positionClassName='value-menu' url={props.match.url} />
+            <SecondSwitch items={items} url={props.match.url} />
+        </div>
     )
 }
 
 const Future = (props) => {
     return (
         <div>
-            Future
+            <img src={futureImage} alt='未來啟航'/>
         </div>
     )
 }
 const National = (props) => {
     return (
         <div>
-            National
+            <img src={nationalImage} alt='國際盛宴'/>
         </div>
     )
 }
 const LifeValue = (props) => {
     return (
         <div>
-            Life Value
+            <img src={lifevalueImage} alt='生活價值'/>
         </div>
     )
 }
 const CultureEnv = (props) => {
     return (
         <div>
-            CultureEnv
+            <img src={cultureenvImage} alt='文創氛圍'/>
         </div>
     )
 }
 const LifeWalking = (props) => {
     return (
         <div>
-            Life Walking
+            <img src={lifewalkingImage} alt='日常散策'/>
         </div>
     )
 }
