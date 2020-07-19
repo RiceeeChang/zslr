@@ -3,7 +3,7 @@ $main-color: #0f5770;
 $main-text-color: #595757;
 $background-color: #e7e5db;
 
-
+$menu-item-color: #9FA0A0;
 
 
 a {
@@ -43,15 +43,6 @@ a {
   }
 }
 
-.burger {
-  background-image: url(./img/Group306.png);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 45px;
-  width: 45px;
-}
-
 .header {
   display: flex;
   align-items: flex-end;
@@ -67,7 +58,7 @@ a {
   .menu {
     display: flex;
 
-    margin-right: 50px;
+    margin-right: 153px;
     
     .menu-item {
       display: flex;
@@ -75,15 +66,13 @@ a {
       justify-content: center;
       align-items: center;
 
-      margin-left: 40px;
-      margin-right: 40px;
+      margin-left: 78px;
 
       color: $main-text-color;
       text-align: center;
 
       a {
         color: $main-text-color;
-        //font-weight: 800;
 
         transition: all 0.5 linear ;
         transition-property: color, border-bottom, font-weight;
@@ -118,9 +107,10 @@ a {
         margin-right: auto;
         margin-bottom: 10px;
 
-        font-size: 24px;
+        
         font-family: "GenWanMinTW-Regular" !important;
-        font-weight: normal;
+        font-size: 24px;
+        letter-spacing: 1px;
         
         border-bottom: solid 1px $main-text-color;
       }
@@ -143,9 +133,11 @@ a {
 
   height: 58px;
 
-  font-size: 20px;
-  font-family: 'GenWanMinTW-Light';
-  color: $main-color;
+  font-family: 'GenWanMin-M.ttc';
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: $menu-item-color;
+
 
   background-color: #FFFFFF;
 
@@ -153,15 +145,16 @@ a {
     font-size: 24px;
 
     a {
-      
-      color: $main-color;
+      color: $menu-item-color;
     }
 
     a:hover {
+      color: $main-color;
       font-family: 'GenWanMinTW-SemiBold';
     }
 
     .active {
+      color: $main-color;
       font-family: 'GenWanMinTW-SemiBold';
     }
   }
@@ -178,16 +171,16 @@ a {
 
 }
 .about-menu {
-  padding-left: 466px;
+  padding-left: 915px;
 }
 .value-menu {
-  padding-left: 865px;
+  padding-left: 1000px;
 }
 .management-menu {
-  padding-left: 1468px;
+  padding-left: 1565px;
 }
 .planning-menu {
-  padding-left: 1263px;
+  padding-left: 1295px;
 }
 
 
@@ -197,14 +190,57 @@ a {
   background-color: $background-color;
 }
 
-
-
-.modal .rodal-dialog{
-  padding: 0px;
-  box-shadow: none;
-  background-color:rgba(0, 0, 0, 0);
+.team {
+  display: flex;
 }
 
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: $main-color;
+
+  .title {
+    margin-bottom: 35px;
+    
+    font-family: 'GenWanMinTW-SemiBold';
+    font-size: 56px;
+  }
+
+  .subtitle {
+    margin-bottom: 128px;
+
+    font-family: 'GenWanMinTW-SemiBold';
+    font-size: 47px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-bottom: 287px;
+  }
+
+  .subtitle2 {
+    font-family: 'Copperplate-Light';
+    font-size: 37px;
+    letter-spacing: 30px;
+  }
+}
+
+.modal {
+  .rodal-mask {
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .rodal-dialog {
+    padding: 0px;
+    box-shadow: none;
+    background-color:rgba(0, 0, 0, 0);
+  }
+}
 /* 路由前进时的入场/离场动画 */
 .forward-enter {
   opacity: 0;

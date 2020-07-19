@@ -30,6 +30,12 @@ code {
 }
 
 @font-face {
+  font-family: 'GenWanMinTW-Medium';
+  src:
+    url(./fonts/GenWanMin-M.ttc);
+}
+
+@font-face {
   font-family: 'GenWanMinTW-SemiBold';
   font-weight: normal;
   font-style: normal;

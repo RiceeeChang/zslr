@@ -7,6 +7,7 @@ import SecondSwitch from '../SecondSwitch'
 import proGiantImage from '../../img/pro-giant.png'
 import cultureImage from '../../img/文化染整.png'
 import lifeImage from '../../img/生活為名.png'
+import historyImage from '../../img/history.png'
 
 const About = (props) => {
     const items = [
@@ -49,7 +50,7 @@ const Life = (props) => {
 const History = (props) => {
     return (
         <div>
-            歷年作品 popup 
+            <img src={historyImage} alt='生活為名'/>
         </div>
     )
 }

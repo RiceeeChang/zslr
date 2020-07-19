@@ -5,9 +5,9 @@ const SecondMenu = (props) => {
     return (
 <       div className={`second-menu ${props.positionClassName}`}>
             {
-                props.items.map(item => (
-                <div className='menu-item'>
-                    <NavLink activeClassName='active' to={`${props.url}${item.path}`}>{item.name}</NavLink>
+                props.items.map((item, i) => (
+                <div key={i} className='menu-item'>
+                    <NavLink exact activeClassName='active' to={`${props.url}${item.path}`}>{item.name}</NavLink>
                 </div>
                 ))
             }

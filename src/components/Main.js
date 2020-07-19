@@ -69,9 +69,6 @@ const Header = (props) => {
             <div className='en'>ARCHITECTUAL PLANNIHG</div>
           </NavLink>
         </div>
-        <div className="menu-item">
-          <i className='burger'></i>
-        </div>
       </div>
     </div>
   )

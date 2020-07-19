@@ -1,10 +1,43 @@
-import React from 'react'
+import React, { useState }  from 'react'
+
+import Rodal from 'rodal';
+
+import 'rodal/lib/rodal.css';
 
 const Team = (props) => {
+    const items = [
+        {button: require('../../img/team/team1.png'), content: require('../../img/team/十方聯合建築師事務所.png')},
+        {button: require('../../img/team/team2.png'), content: require('../../img/team/六國景觀設計有限公司.png')},
+        {button: require('../../img/team/team3.png'), content: require('../../img/team/永興土木聯合技師事務所.png')},
+    ]
 
     return (
+        <div className='content team'>
+        {
+            items.map((item, i) => (
+                <MyModal key={i} button={item.button} content={item.content}/>
+            ))
+        }
+        </div>
+    )
+}
+
+const MyModal = (props) => {
+    const [visible, setVisible] = useState(false);
+    return (
         <div>
-        Team
+            <a onClick={() => setVisible(true)}><img src={props.button}/></a>
+            <Rodal 
+                width={1821}
+                height={1025}
+                visible={visible} 
+                onClose={() => setVisible(false)}
+                showCloseButton={false}
+                animation='slideDown'
+                className='modal'
+                >
+                <img src={props.content}/>
+            </Rodal>
         </div>
     )
 }
