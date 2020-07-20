@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "17cebb8e54cbdc06ed744bcb4473cda4",
+    "revision": "9d4e95038e0a495ddec7db7ac032b2de",
     "url": "/zslr/index.html"
   },
   {
-    "revision": "81dd7c8c22a5497bd127",
+    "revision": "f4662c724eb611e3c64c",
     "url": "/zslr/static/css/2.190caba9.chunk.css"
   },
   {
-    "revision": "a7ffb34fbe03486573e5",
-    "url": "/zslr/static/css/main.19fda368.chunk.css"
+    "revision": "63907eb837bb06d59d38",
+    "url": "/zslr/static/css/main.37648919.chunk.css"
   },
   {
-    "revision": "81dd7c8c22a5497bd127",
-    "url": "/zslr/static/js/2.dbe1bd07.chunk.js"
+    "revision": "f4662c724eb611e3c64c",
+    "url": "/zslr/static/js/2.270d571a.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/zslr/static/js/2.dbe1bd07.chunk.js.LICENSE.txt"
+    "url": "/zslr/static/js/2.270d571a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a7ffb34fbe03486573e5",
-    "url": "/zslr/static/js/main.847df273.chunk.js"
+    "revision": "63907eb837bb06d59d38",
+    "url": "/zslr/static/js/main.cc41cbb1.chunk.js"
   },
   {
     "revision": "bb2591f659bfb970425f",
@@ -160,8 +160,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zslr/static/media/opening.2ffbe286.png"
   },
   {
-    "revision": "df9af5b0375a65aced1499c83dae42a9",
-    "url": "/zslr/static/media/pro-giant.df9af5b0.png"
+    "revision": "8e96c90cf1341fa0023e3a07498c2c4f",
+    "url": "/zslr/static/media/pro-giant.8e96c90c.webp"
   },
   {
     "revision": "fe753869ba29c95280b173559f924b78",
@@ -180,10 +180,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zslr/static/media/公共設施01.e00bc1be.png"
   },
   {
-    "revision": "44f5111e4da49c1010bd2ff69e0ba0f7",
-    "url": "/zslr/static/media/公共設施02.44f5111e.png"
-  },
-  {
     "revision": "913dfd2d8d250ac17ec86b5b0e049323",
     "url": "/zslr/static/media/六國景觀設計有限公司.913dfd2d.png"
   },
@@ -198,34 +194,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2e0952147c7e0def2918e05e5555e357",
     "url": "/zslr/static/media/建材設備01.2e095214.png"
-  },
-  {
-    "revision": "4031c3eb148d24c7bcf705f7453acbc3",
-    "url": "/zslr/static/media/建材設備02.4031c3eb.png"
-  },
-  {
-    "revision": "223941179d76e300b3e0254b870a94e1",
-    "url": "/zslr/static/media/建材設備03.22394117.png"
-  },
-  {
-    "revision": "4886119b843825f0e7f42467dae13c80",
-    "url": "/zslr/static/media/建材設備04.4886119b.png"
-  },
-  {
-    "revision": "50ba051f4656c297d3320dd8119b5b8b",
-    "url": "/zslr/static/media/建材設備05.50ba051f.png"
-  },
-  {
-    "revision": "7475d8c3310be2766f6706f8146a469d",
-    "url": "/zslr/static/media/建材設備06.7475d8c3.png"
-  },
-  {
-    "revision": "18fb1dafec9d6aa82e4f6ea353f3301f",
-    "url": "/zslr/static/media/建材設備07.18fb1daf.png"
-  },
-  {
-    "revision": "d42e747eee97039a21e96434c1920be8",
-    "url": "/zslr/static/media/建材設備08.d42e747e.png"
   },
   {
     "revision": "d33ebe7814e10f212bff0d4cbef3d86f",
