@@ -1,4 +1,5 @@
 import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
 
 import SecondMenu from '../SecondMenu'
 import SecondSwitch from '../SecondSwitch'
@@ -21,10 +22,10 @@ const Value = (props) => {
     ]
 
     return (
-        <div>
+        <BrowserRouter basename={ process.env.PUBLIC_URL }>
             <SecondMenu items={items} positionClassName='value-menu' url={props.match.url} />
             <SecondSwitch items={items} url={props.match.url} />
-        </div>
+        </BrowserRouter>
     )
 }
 

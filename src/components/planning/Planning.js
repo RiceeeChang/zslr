@@ -1,4 +1,5 @@
 import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
 
 import SecondMenu from '../SecondMenu'
 import SecondSwitch from '../SecondSwitch'
@@ -7,15 +8,7 @@ import Team from './Team'
 import Appearance from './Appearance'
 
 import publicImage1 from '../../img/公共設施01.png'
-import publicImage2 from '../../img/公共設施02.png'
 import deviceImage1 from '../../img/建材設備01.png'
-import deviceImage2 from '../../img/建材設備02.png'
-import deviceImage3 from '../../img/建材設備03.png'
-import deviceImage4 from '../../img/建材設備04.png'
-import deviceImage5 from '../../img/建材設備05.png'
-import deviceImage6 from '../../img/建材設備06.png'
-import deviceImage7 from '../../img/建材設備07.png'
-import deviceImage8 from '../../img/建材設備08.png'
 
 const Planning = (props) => {
     const items = [
@@ -28,10 +21,10 @@ const Planning = (props) => {
     ]
 
     return (
-        <div>
+        <BrowserRouter basename={ process.env.PUBLIC_URL }>
             <SecondMenu items={items} positionClassName='planning-menu' url={props.match.url} />
             <SecondSwitch items={items} url={props.match.url} />
-        </div>
+        </BrowserRouter>
     )
 }
 

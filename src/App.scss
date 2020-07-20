@@ -171,18 +171,21 @@ a {
 
 }
 .about-menu {
-  padding-left: 915px;
+  padding-left: (915/2224)*100vw;
 }
 .value-menu {
-  padding-left: 1000px;
+  padding-left: (1000/2224)*100vw;
 }
 .management-menu {
-  padding-left: 1565px;
+  padding-left: (1565/2224)*100vw;
 }
 .planning-menu {
-  padding-left: 1295px;
+  padding-left: (1295/2224)*100vw;
 }
 
+.content-image {
+  max-width: 100vw;
+}
 
 .content {
   height: 1414px;
@@ -229,6 +232,12 @@ a {
     font-size: 37px;
     letter-spacing: 30px;
   }
+}
+
+.modal-button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
 }
 
 .modal {

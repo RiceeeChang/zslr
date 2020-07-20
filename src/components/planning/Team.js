@@ -26,7 +26,7 @@ const MyModal = (props) => {
     const [visible, setVisible] = useState(false);
     return (
         <div>
-            <a onClick={() => setVisible(true)}><img src={props.button}/></a>
+            <button className='modal-button' onClick={() => setVisible(true)}><img src={props.button} alt='team'/></button>
             <Rodal 
                 width={1821}
                 height={1025}
@@ -36,7 +36,7 @@ const MyModal = (props) => {
                 animation='slideDown'
                 className='modal'
                 >
-                <img src={props.content}/>
+                <img src={props.content} alt='team'/>
             </Rodal>
         </div>
     )

@@ -1,10 +1,11 @@
 import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
 
 import SecondMenu from '../SecondMenu'
 import SecondSwitch from '../SecondSwitch'
 
 
-import proGiantImage from '../../img/pro-giant.png'
+import proGiantImage from '../../img/pro-giant.webp'
 import cultureImage from '../../img/文化染整.png'
 import lifeImage from '../../img/生活為名.png'
 import historyImage from '../../img/history.png'
@@ -18,17 +19,17 @@ const About = (props) => {
     ]
 
     return (
-        <div>
+        <BrowserRouter basename={ process.env.PUBLIC_URL }>
             <SecondMenu items={items} positionClassName='about-menu' url={props.match.url}/>
             <SecondSwitch items={items} url={props.match.url}/>
-        </div>
+        </BrowserRouter>
     )
 }
 
 const Giant = (props) => {
     return (
         <div>
-            <img src={proGiantImage} alt='保強建設'/>
+            <img className='content-image' src={proGiantImage} alt='保強建設'/>
         </div>
     )
 }
