@@ -14,7 +14,7 @@ import logoFile from '../img/site-logo.png';
 const Main = (props) => {
 
     return (
-    <BrowserRouter>
+    <BrowserRouter basename={ process.env.PUBLIC_URL }>
       <Header />
       <Routes />
     </BrowserRouter>
@@ -29,10 +29,10 @@ const Routes = withRouter(({location}) => (
       key={location.pathname}
     >
       <Switch location={location}>
-        <Route path='/pro-giant-brand' component={About}/>
-        <Route path='/lot-value' component={Value}/>
-        <Route path='/property-management' component={Management}/>
-        <Route path='/architectual-planning' component={Planning}/>
+        <Route exact path='/' component={About}/>
+        <Route exact path='/lot-value' component={Value}/>
+        <Route exact path='/property-management' component={Management}/>
+        <Route exact path='/architectual-planning' component={Planning}/>
       </Switch>
     </CSSTransition>
   </TransitionGroup>
@@ -46,25 +46,25 @@ const Header = (props) => {
       <div className='logo'><img src={logoFile} alt='中山里仁' /></div>
       <div className='menu'>
         <div className='menu-item'>
-          <NavLink activeClassName='active' to="/pro-giant-brand">
+          <NavLink exact activeClassName='active' to="/">
             <div className='ch'>關於我們</div>
             <div className='en'>PRO GIANT BRAND</div>
           </NavLink>
         </div>
         <div className='menu-item'>
-          <NavLink activeClassName='active' to="/lot-value">
+          <NavLink exact activeClassName='active' to="/lot-value">
             <div className='ch'>地段價值</div>
             <div className='en'>LOT VALUE</div>
           </NavLink>
         </div>
         <div className='menu-item'>
-          <NavLink activeClassName='active' to="/property-management">
+          <NavLink exact activeClassName='active' to="/property-management">
             <div className='ch'>物業管理</div>
             <div className='en'>PROPERTY MANAGEMENT</div>
           </NavLink>
         </div>
         <div className='menu-item'>
-          <NavLink activeClassName='active' to="/architectual-planning">
+          <NavLink exact activeClassName='active' to="/architectual-planning">
             <div className='ch'>建築規劃</div>
             <div className='en'>ARCHITECTUAL PLANNIHG</div>
           </NavLink>

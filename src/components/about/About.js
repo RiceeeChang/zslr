@@ -12,9 +12,9 @@ import historyImage from '../../img/history.png'
 const About = (props) => {
     const items = [
         { 'name': '保強建設', 'path': '', 'component': Giant},
-        { 'name': '文化染整', 'path': '/culture', 'component': Culture},
-        { 'name': '生活為名', 'path': '/life', 'component': Life},
-        { 'name': '歷年作品', 'path': '/history', 'component': History},
+        { 'name': '文化染整', 'path': 'culture', 'component': Culture},
+        { 'name': '生活為名', 'path': 'life', 'component': Life},
+        { 'name': '歷年作品', 'path': 'history', 'component': History},
     ]
 
     return (
