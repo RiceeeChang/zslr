@@ -6,9 +6,9 @@ import 'rodal/lib/rodal.css';
 
 const Team = (props) => {
     const items = [
-        {button: require('../../img/team/team1.png'), content: require('../../img/team/十方聯合建築師事務所.png')},
-        {button: require('../../img/team/team2.png'), content: require('../../img/team/六國景觀設計有限公司.png')},
-        {button: require('../../img/team/team3.png'), content: require('../../img/team/永興土木聯合技師事務所.png')},
+        {button: require('../../img/team/team1.webp'), content: require('../../img/team/十方聯合建築師事務所.webp')},
+        {button: require('../../img/team/team2.webp'), content: require('../../img/team/六國景觀設計有限公司.webp')},
+        {button: require('../../img/team/team3.webp'), content: require('../../img/team/永興土木聯合技師事務所.webp')},
     ]
 
     return (

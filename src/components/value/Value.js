@@ -4,11 +4,11 @@ import { BrowserRouter } from 'react-router-dom'
 import SecondMenu from '../SecondMenu'
 import SecondSwitch from '../SecondSwitch'
 
-import futureImage from '../../img/未來啟航.png'
-import nationalImage from '../../img/國際盛宴.png'
-import lifevalueImage from '../../img/生活價值.png'
-import cultureenvImage from '../../img/文創氛圍.png'
-import lifewalkingImage from '../../img/日常散策.png'
+import futureImage from '../../img/未來啟航.webp'
+import nationalImage from '../../img/國際盛宴.webp'
+import lifevalueImage from '../../img/生活價值.webp'
+import cultureenvImage from '../../img/文創氛圍.webp'
+import lifewalkingImage from '../../img/日常散策.webp'
 
 
 const Value = (props) => {

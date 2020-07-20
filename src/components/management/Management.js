@@ -6,7 +6,7 @@ import SecondSwitch from '../SecondSwitch'
 
 import Service from './Service.js'
 
-import cooperationImage from '../../img/cooperation.png'
+import cooperationImage from '../../img/cooperation.webp'
 
 const Management = (props) => {
     const items = [

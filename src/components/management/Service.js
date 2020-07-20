@@ -6,18 +6,18 @@ import 'rodal/lib/rodal.css';
 const Service = (props) => {
 
     const items = [
-        {button: require('../../img/service/01B.png'), content: require('../../img/service/01.png')},
-        {button: require('../../img/service/02B.png'), content: require('../../img/service/02.png')},
-        {button: require('../../img/service/03B.png'), content: require('../../img/service/03.png')},
-        {button: require('../../img/service/04B.png'), content: require('../../img/service/04.png')},
-        {button: require('../../img/service/05B.png'), content: require('../../img/service/05.png')},
-        {button: require('../../img/service/06B.png'), content: require('../../img/service/06.png')},
-        {button: require('../../img/service/07B.png'), content: require('../../img/service/07.png')},
-        {button: require('../../img/service/08B.png'), content: require('../../img/service/08.png')},
-        {button: require('../../img/service/09B.png'), content: require('../../img/service/09.png')},
-        {button: require('../../img/service/10B.png'), content: require('../../img/service/10.png')},
-        {button: require('../../img/service/11B.png'), content: require('../../img/service/11.png')},
-        {button: require('../../img/service/12B.png'), content: require('../../img/service/12.png')},
+        {button: require('../../img/service/01B.webp'), content: require('../../img/service/01.webp')},
+        {button: require('../../img/service/02B.webp'), content: require('../../img/service/02.webp')},
+        {button: require('../../img/service/03B.webp'), content: require('../../img/service/03.webp')},
+        {button: require('../../img/service/04B.webp'), content: require('../../img/service/04.webp')},
+        {button: require('../../img/service/05B.webp'), content: require('../../img/service/05.webp')},
+        {button: require('../../img/service/06B.webp'), content: require('../../img/service/06.webp')},
+        {button: require('../../img/service/07B.webp'), content: require('../../img/service/07.webp')},
+        {button: require('../../img/service/08B.webp'), content: require('../../img/service/08.webp')},
+        {button: require('../../img/service/09B.webp'), content: require('../../img/service/09.webp')},
+        {button: require('../../img/service/10B.webp'), content: require('../../img/service/10.webp')},
+        {button: require('../../img/service/11B.webp'), content: require('../../img/service/11.webp')},
+        {button: require('../../img/service/12B.webp'), content: require('../../img/service/12.webp')},
     ]
 
     return (

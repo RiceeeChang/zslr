@@ -9,7 +9,7 @@ import Value from './value/Value.js'
 import Management from './management/Management.js'
 import Planning from './planning/Planning.js'
 
-import logoFile from '../img/site-logo.png';
+import logoFile from '../img/site-logo.webp';
 
 const Main = (props) => {
 

@@ -27,7 +27,7 @@ a {
 
 .opening {
   @include fullscreen-photo();
-  background-image: url(./img/opening.png);
+  background-image: url(./img/opening.webp);
   animation-name: opening-animation;
   animation-duration: 3s;
   animation-iteration-count: 1;

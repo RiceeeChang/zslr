@@ -7,8 +7,8 @@ import SecondSwitch from '../SecondSwitch'
 import Team from './Team'
 import Appearance from './Appearance'
 
-import publicImage1 from '../../img/公共設施01.png'
-import deviceImage1 from '../../img/建材設備01.png'
+import publicImage1 from '../../img/public/公共設施01.png'
+import deviceImage1 from '../../img/device/建材設備01.png'
 
 const Planning = (props) => {
     const items = [
