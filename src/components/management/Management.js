@@ -25,7 +25,7 @@ const Management = (props) => {
 
 const Cooperate = (props) => {
     return (
-        <img src={cooperationImage} alt='合作案例'/>
+        <img className='content-image' src={cooperationImage} alt='合作案例'/>
     )
 }
 

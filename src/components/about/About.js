@@ -36,14 +36,14 @@ const Giant = (props) => {
 const Culture = (props) => {
     return (
         <div>
-            <img src={cultureImage} alt='文化染整'/>
+            <img className='content-image' src={cultureImage} alt='文化染整'/>
         </div>
     )
 }
 const Life = (props) => {
     return (
         <div>
-            <img src={lifeImage} alt='生活為名'/>
+            <img className='content-image' src={lifeImage} alt='生活為名'/>
         </div>
     )
 }
@@ -51,7 +51,7 @@ const Life = (props) => {
 const History = (props) => {
     return (
         <div>
-            <img src={historyImage} alt='生活為名'/>
+            <img className='content-image' src={historyImage} alt='歷代作品'/>
         </div>
     )
 }

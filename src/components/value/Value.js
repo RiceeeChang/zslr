@@ -32,35 +32,35 @@ const Value = (props) => {
 const Future = (props) => {
     return (
         <div>
-            <img src={futureImage} alt='未來啟航'/>
+            <img className='content-image' src={futureImage} alt='未來啟航'/>
         </div>
     )
 }
 const National = (props) => {
     return (
         <div>
-            <img src={nationalImage} alt='國際盛宴'/>
+            <img className='content-image' src={nationalImage} alt='國際盛宴'/>
         </div>
     )
 }
 const LifeValue = (props) => {
     return (
         <div>
-            <img src={lifevalueImage} alt='生活價值'/>
+            <img className='content-image' src={lifevalueImage} alt='生活價值'/>
         </div>
     )
 }
 const CultureEnv = (props) => {
     return (
         <div>
-            <img src={cultureenvImage} alt='文創氛圍'/>
+            <img className='content-image' src={cultureenvImage} alt='文創氛圍'/>
         </div>
     )
 }
 const LifeWalking = (props) => {
     return (
         <div>
-            <img src={lifewalkingImage} alt='日常散策'/>
+            <img className='content-image' src={lifewalkingImage} alt='日常散策'/>
         </div>
     )
 }

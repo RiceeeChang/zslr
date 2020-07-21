@@ -6,9 +6,10 @@ import SecondSwitch from '../SecondSwitch'
 
 import Team from './Team'
 import Appearance from './Appearance'
-
-import publicImage1 from '../../img/public/公共設施01.png'
-import deviceImage1 from '../../img/device/建材設備01.png'
+import Public from './Public'
+import Device from './Device'
+import Feature from './Feature'
+import FloorPlan from './FloorPlan'
 
 const Planning = (props) => {
     const items = [
@@ -25,39 +26,6 @@ const Planning = (props) => {
             <SecondMenu items={items} positionClassName='planning-menu' url={props.match.url} />
             <SecondSwitch items={items} url={props.match.url} />
         </BrowserRouter>
-    )
-}
-
-
-const Public = (props) => {
-    return (
-        <div>
-            <img src={publicImage1} alt='公共設施1' />
-        </div>
-    )
-} 
-
-const Device = (props) => {
-    return (
-        <div>
-            <img src={deviceImage1} alt='建材設備1' />
-        </div>
-    )
-}
-
-const Feature = (props) => {
-    return (
-        <div>
-            工種特色 要拉popup
-        </div>
-    )
-}
-
-const FloorPlan = (props) => {
-    return (
-        <div>
-            平面圖 要拉
-        </div>
     )
 }
 
