@@ -6,9 +6,9 @@ import SecondSwitch from '../SecondSwitch'
 
 
 import proGiantImage from '../../img/pro-giant.png'
-import cultureImage from '../../img/文化染整.webp'
-import lifeImage from '../../img/生活為名.webp'
-import historyImage from '../../img/history.webp'
+import cultureImage from '../../img/culture.png'
+import lifeImage from '../../img/life.png'
+import historyImage from '../../img/history.png'
 
 const About = (props) => {
     const items = [

@@ -6,9 +6,9 @@ import 'rodal/lib/rodal.css';
 
 const Team = (props) => {
     const items = [
-        {button: require('../../img/team/team1.webp'), content: require('../../img/team/十方聯合建築師事務所.webp')},
-        {button: require('../../img/team/team2.webp'), content: require('../../img/team/六國景觀設計有限公司.webp')},
-        {button: require('../../img/team/team3.webp'), content: require('../../img/team/永興土木聯合技師事務所.webp')},
+        {button: require('../../img/team/01B.png'), content: require('../../img/team/01.png')},
+        {button: require('../../img/team/02B.png'), content: require('../../img/team/02.png')},
+        {button: require('../../img/team/03B.png'), content: require('../../img/team/03.png')},
     ]
 
     return (
@@ -28,8 +28,8 @@ const MyModal = (props) => {
         <div>
             <button className='modal-button' onClick={() => setVisible(true)}><img src={props.button} alt='team'/></button>
             <Rodal 
-                width={1821}
-                height={1025}
+                width={863}
+                height={444}
                 visible={visible} 
                 onClose={() => setVisible(false)}
                 showCloseButton={false}
