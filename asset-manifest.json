@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/zslr/static/css/main.54bc7fc6.chunk.css",
-    "main.js": "/zslr/static/js/main.ceed19e3.chunk.js",
-    "main.js.map": "/zslr/static/js/main.ceed19e3.chunk.js.map",
+    "main.css": "/zslr/static/css/main.be2b20ab.chunk.css",
+    "main.js": "/zslr/static/js/main.138fb6c2.chunk.js",
+    "main.js.map": "/zslr/static/js/main.138fb6c2.chunk.js.map",
     "runtime-main.js": "/zslr/static/js/runtime-main.191d050c.js",
     "runtime-main.js.map": "/zslr/static/js/runtime-main.191d050c.js.map",
     "static/css/2.a2561113.chunk.css": "/zslr/static/css/2.a2561113.chunk.css",
-    "static/js/2.b77f5846.chunk.js": "/zslr/static/js/2.b77f5846.chunk.js",
-    "static/js/2.b77f5846.chunk.js.map": "/zslr/static/js/2.b77f5846.chunk.js.map",
+    "static/js/2.1dff8783.chunk.js": "/zslr/static/js/2.1dff8783.chunk.js",
+    "static/js/2.1dff8783.chunk.js.map": "/zslr/static/js/2.1dff8783.chunk.js.map",
     "index.html": "/zslr/index.html",
-    "precache-manifest.2b61c5a3e7be93af40b0197b489bb7eb.js": "/zslr/precache-manifest.2b61c5a3e7be93af40b0197b489bb7eb.js",
+    "precache-manifest.8007acc53e10531d5515be1f085d9651.js": "/zslr/precache-manifest.8007acc53e10531d5515be1f085d9651.js",
     "service-worker.js": "/zslr/service-worker.js",
     "static/css/2.a2561113.chunk.css.map": "/zslr/static/css/2.a2561113.chunk.css.map",
-    "static/css/main.54bc7fc6.chunk.css.map": "/zslr/static/css/main.54bc7fc6.chunk.css.map",
-    "static/js/2.b77f5846.chunk.js.LICENSE.txt": "/zslr/static/js/2.b77f5846.chunk.js.LICENSE.txt",
+    "static/css/main.be2b20ab.chunk.css.map": "/zslr/static/css/main.be2b20ab.chunk.css.map",
+    "static/js/2.1dff8783.chunk.js.LICENSE.txt": "/zslr/static/js/2.1dff8783.chunk.js.LICENSE.txt",
     "static/media/01.png": "/zslr/static/media/01.f8e3ecb6.png",
     "static/media/01B.png": "/zslr/static/media/01B.9eeaefa9.png",
     "static/media/02.png": "/zslr/static/media/02.e6fc9301.png",
@@ -47,6 +47,7 @@
     "static/media/culture.png": "/zslr/static/media/culture.1fe00cee.png",
     "static/media/history.png": "/zslr/static/media/history.36abb4cd.png",
     "static/media/life.png": "/zslr/static/media/life.aa547aa1.png",
+    "static/media/online.png": "/zslr/static/media/online.f5871826.png",
     "static/media/App.scss": "/zslr/static/media/工種特色背景.0af5eaf8.png",
     "static/media/pro-giant.png": "/zslr/static/media/pro-giant.06d4c683.png",
     "static/media/國際盛宴.png": "/zslr/static/media/國際盛宴.9b83cc66.png",
@@ -58,8 +59,8 @@
   "entrypoints": [
     "static/js/runtime-main.191d050c.js",
     "static/css/2.a2561113.chunk.css",
-    "static/js/2.b77f5846.chunk.js",
-    "static/css/main.54bc7fc6.chunk.css",
-    "static/js/main.ceed19e3.chunk.js"
+    "static/js/2.1dff8783.chunk.js",
+    "static/css/main.be2b20ab.chunk.css",
+    "static/js/main.138fb6c2.chunk.js"
   ]
 }
