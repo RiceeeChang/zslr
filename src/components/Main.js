@@ -1,8 +1,5 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route, NavLink, withRouter} from 'react-router-dom'
-import { TransitionGroup, CSSTransition } from 'react-transition-group';
-
-
 
 import About from './about/About.js'
 import Value from './value/Value.js'
@@ -13,32 +10,22 @@ import logoFile from '../img/site-logo.png';
 
 const Main = (props) => {
 
-    return (
-    <BrowserRouter basename={ process.env.PUBLIC_URL }>
-      <Header />
-      <Routes />
-    </BrowserRouter>
-    )
+  return (
+  <BrowserRouter basename={ process.env.PUBLIC_URL }>
+    <Header />
+    <Routes />
+  </BrowserRouter>
+  )
 }
 
 const Routes = withRouter(({location}) => (
-  <TransitionGroup className={'router-wrapper'}>
-    <CSSTransition
-      timeout={500}
-      classNames={'fade'}
-      key={location.pathname}
-    >
-      <Switch location={location}>
-        <Route exact path='/' component={About}/>
-        <Route exact path='/lot-value' component={Value}/>
-        <Route exact path='/property-management' component={Management}/>
-        <Route exact path='/architectual-planning' component={Planning}/>
-      </Switch>
-    </CSSTransition>
-  </TransitionGroup>
+  <Switch location={location}>
+    <Route exact path='/' component={About}/>
+    <Route exact path='/lot-value' component={Value}/>
+    <Route exact path='/property-management' component={Management}/>
+    <Route exact path='/architectual-planning' component={Planning}/>
+  </Switch>
 ));
-
-
 
 const Header = (props) => {
   return (
