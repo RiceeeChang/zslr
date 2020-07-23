@@ -391,70 +391,7 @@ a {
   width: 800px;
 }
 
-.room-button {
-  border: 0;
-  border-radius: 50%;
-  
-  min-width: 50px;
-  height: 50px;
-  background-color: rgba(255, 255, 0, 0.4);
-}
 
-.position-2A {
-  position: relative;
-  top: 129px;
-  right: 374px;
-}
-.position-2B {
-  position: relative;
-  top: 129px;
-  right: 520px;
-}
-.position-3A {
-  position: relative;
-  top: 116px;
-  right: 360px;
-}
-.position-3B {
-  position: relative;
-  top: 116px;
-  right: 510px;
-}
-.position-3C {
-  position: relative;
-  top: 417px;
-  right: 616px;
-}
-.position-14A {
-  position: relative;
-  top: 114px;
-  right: 357px;
-}
-.position-14B {
-  position: relative;
-  top: 114px;
-  right: 507px;
-}
-.position-14C {
-  position: relative;
-  top: 416px;
-  right: 612px;
-}
-.position-15A {
-  position: relative;
-  top: 136px;
-  right: 357px;
-}
-.position-15B {
-  position: relative;
-  top: 136px;
-  right: 506px;
-}
-.position-15C {
-  position: relative;
-  top: 415px;
-  right: 612px;
-}
 
 .carousel__slider {
   width: 800px;
@@ -565,4 +502,120 @@ a {
   opacity: 0;
   transform: translateX(-100%);
   transition: all 500ms;
+}
+
+/* 按鈕動畫 */
+.room-button {
+  position: absolute;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.spot {
+  width: 45px;
+  height: 45px;
+  display: block;
+  position: absolute; 
+}
+.spot:before, .spot:after {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -5px 0 0 -5px;
+  background: #074063; 
+}
+.spot:after {
+  opacity: 0.2;
+  animation: sonar 2s linear 0s infinite; 
+}
+.spot:before {
+  opacity: 0.2;
+  animation: sonar 2s linear 1s infinite; 
+}
+.spot span {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -5px 0 0 -5px;
+  background: #074063;
+  border-radius: 50%;
+  opacity: 0.2; 
+}
+.position-2A {
+  top: 116px;
+  right: 374px;
+}
+.position-2B {
+  top: 116px;
+  right: 470px;
+}
+.position-3A {
+  top: 104px;
+  right: 360px;
+}
+.position-3B {
+  top: 104px;
+  right: 460px;
+}
+.position-3C {
+  top: 404px;
+  right: 515px;
+}
+.position-14A {
+  top: 102px;
+  right: 357px;
+}
+.position-14B {
+  top: 102px;
+  right: 457px;
+}
+.position-14C {
+  top: 403px;
+  right: 511px;
+}
+.position-15A {
+  top: 124px;
+  right: 356px;
+}
+.position-15B {
+  top: 124px;
+  right: 455px;
+}
+.position-15C {
+  top: 403px;
+  right: 510px;
+}
+
+@keyframes sonar {
+  0% {
+    -webkit-transform: scale(1);
+    opacity: 0; 
+  }
+  70% {
+    -webkit-transform: scale(2.8);
+    opacity: 0.2; 
+  }
+  100% {
+    -webkit-transform: scale(3);
+    opacity: 0; 
+  }
+}
+
+.invisible {
+  display: none;
+}
+
+.online {
+  position: absolute;
+  top: 492px;
+  left: 40px;
 }

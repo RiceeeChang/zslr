@@ -9,7 +9,7 @@ import nationalImage from '../../img/國際盛宴.png'
 import lifevalueImage from '../../img/生活價值.png'
 import cultureenvImage from '../../img/文創氛圍.png'
 import lifewalkingImage from '../../img/日常散策.png'
-
+import LifeMap from './LifeMap'
 
 const Value = (props) => {
     const items = [
@@ -61,13 +61,6 @@ const LifeWalking = (props) => {
     return (
         <div>
             <img className='content-image' src={lifewalkingImage} alt='日常散策'/>
-        </div>
-    )
-}
-const LifeMap = (props) => {
-    return (
-        <div>
-            生活機能圖 拉板
         </div>
     )
 }

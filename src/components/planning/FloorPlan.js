@@ -11,6 +11,7 @@ const FloorPlan = (props) => {
     const [visibleA, setVisibleA] = useState(false);
     const [visibleB, setVisibleB] = useState(false);
     const [visibleC, setVisibleC] = useState(false);
+
     return (
         <div className='content'>
             <div className='floor-plan'>
@@ -45,32 +46,32 @@ const FloorPlan = (props) => {
                         <Slide index={2}>
                             <div className='floor-card'>
                                 <img src={require('../../img/floor/15F.png')} alt='15F' />
-                                <button className='room-button position-15A' onClick={() => setVisibleA(true)}></button>
-                                <button className='room-button position-15B' onClick={() => setVisibleB(true)}></button>
-                                <button className='room-button position-15C' onClick={() => setVisibleC(true)}></button>
+                                <button className='room-button position-15A' onClick={() => setVisibleA(true)}><p className='spot'><span></span></p></button>
+                                <button className='room-button position-15B' onClick={() => setVisibleB(true)}><p className='spot'><span></span></p></button>
+                                <button className='room-button position-15C' onClick={() => setVisibleC(true)}><p className='spot'><span></span></p></button>
                             </div>
                         </Slide>
                         <Slide index={3}>
                             <div className='floor-card'>
                                 <img src={require('../../img/floor/14F.png')} alt='14F' />
-                                <button className='room-button position-14A' onClick={() => setVisibleA(true)}></button>
-                                <button className='room-button position-14B' onClick={() => setVisibleB(true)}></button>
-                                <button className='room-button position-14C' onClick={() => setVisibleC(true)}></button>
+                                <button className='room-button position-14A' onClick={() => setVisibleA(true)}><p className='spot'><span></span></p></button>
+                                <button className='room-button position-14B' onClick={() => setVisibleB(true)}><p className='spot'><span></span></p></button>
+                                <button className='room-button position-14C' onClick={() => setVisibleC(true)}><p className='spot'><span></span></p></button>
                             </div>
                         </Slide>
                         <Slide index={4}>
                             <div className='floor-card'>
                                 <img src={require('../../img/floor/3F.png')} alt='3F' />
-                                <button className='room-button position-3A' onClick={() => setVisibleA(true)}></button>
-                                <button className='room-button position-3B' onClick={() => setVisibleB(true)}></button>
-                                <button className='room-button position-3C' onClick={() => setVisibleC(true)}></button>
+                                <button className='room-button position-3A' onClick={() => setVisibleA(true)}><p className='spot'><span></span></p></button>
+                                <button className='room-button position-3B' onClick={() => setVisibleB(true)}><p className='spot'><span></span></p></button>
+                                <button className='room-button position-3C' onClick={() => setVisibleC(true)}><p className='spot'><span></span></p></button>
                             </div>
                         </Slide>
                         <Slide index={5}>
                             <div className='floor-card'>
                                 <img src={require('../../img/floor/2F.jpg')} alt='2F' />
-                                <button className='room-button position-2A' onClick={() => setVisibleA(true)}></button>
-                                <button className='room-button position-2B' onClick={() => setVisibleB(true)}></button>
+                                <button className='room-button position-2A' onClick={() => setVisibleA(true)}><p className='spot'><span></span></p></button>
+                                <button className='room-button position-2B' onClick={() => setVisibleB(true)}><p className='spot'><span></span></p></button>
                             </div>
                         </Slide>
                         <Slide index={6}><div className='floor-card'><img src={require('../../img/floor/1F.jpg')} alt='1F' /></div></Slide>
@@ -95,6 +96,7 @@ const FloorPlan = (props) => {
                 className='modal room'
                 >
                 <img src={require('../../img/floor/A.png')} alt='A room'/>
+                <a className='online' target='_blank' rel="noopener noreferrer" href='https://720yun.com/t/bfvkshfbd29?scene_id=50231611'><img src={require('../../img/floor/online.png')} alt='online' /></a>
             </Rodal>
             <Rodal 
                 width={1024}
