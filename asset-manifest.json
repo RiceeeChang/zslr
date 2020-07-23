@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/zslr/static/css/main.be2b20ab.chunk.css",
-    "main.js": "/zslr/static/js/main.138fb6c2.chunk.js",
-    "main.js.map": "/zslr/static/js/main.138fb6c2.chunk.js.map",
+    "main.js": "/zslr/static/js/main.d9e06436.chunk.js",
+    "main.js.map": "/zslr/static/js/main.d9e06436.chunk.js.map",
     "runtime-main.js": "/zslr/static/js/runtime-main.191d050c.js",
     "runtime-main.js.map": "/zslr/static/js/runtime-main.191d050c.js.map",
     "static/css/2.a2561113.chunk.css": "/zslr/static/css/2.a2561113.chunk.css",
-    "static/js/2.1dff8783.chunk.js": "/zslr/static/js/2.1dff8783.chunk.js",
-    "static/js/2.1dff8783.chunk.js.map": "/zslr/static/js/2.1dff8783.chunk.js.map",
+    "static/js/2.97bd1f0e.chunk.js": "/zslr/static/js/2.97bd1f0e.chunk.js",
+    "static/js/2.97bd1f0e.chunk.js.map": "/zslr/static/js/2.97bd1f0e.chunk.js.map",
     "index.html": "/zslr/index.html",
-    "precache-manifest.8007acc53e10531d5515be1f085d9651.js": "/zslr/precache-manifest.8007acc53e10531d5515be1f085d9651.js",
+    "precache-manifest.7975cc8759810f22e47d57d692d940e2.js": "/zslr/precache-manifest.7975cc8759810f22e47d57d692d940e2.js",
     "service-worker.js": "/zslr/service-worker.js",
     "static/css/2.a2561113.chunk.css.map": "/zslr/static/css/2.a2561113.chunk.css.map",
     "static/css/main.be2b20ab.chunk.css.map": "/zslr/static/css/main.be2b20ab.chunk.css.map",
-    "static/js/2.1dff8783.chunk.js.LICENSE.txt": "/zslr/static/js/2.1dff8783.chunk.js.LICENSE.txt",
+    "static/js/2.97bd1f0e.chunk.js.LICENSE.txt": "/zslr/static/js/2.97bd1f0e.chunk.js.LICENSE.txt",
     "static/media/01.png": "/zslr/static/media/01.f8e3ecb6.png",
     "static/media/01B.png": "/zslr/static/media/01B.9eeaefa9.png",
     "static/media/02.png": "/zslr/static/media/02.e6fc9301.png",
@@ -44,12 +44,12 @@
     "static/media/R1F.jpg": "/zslr/static/media/R1F.81d45a2d.jpg",
     "static/media/R23F.jpg": "/zslr/static/media/R23F.b92e0d52.jpg",
     "static/media/cooperation.png": "/zslr/static/media/cooperation.8502cbf8.png",
-    "static/media/culture.png": "/zslr/static/media/culture.1fe00cee.png",
-    "static/media/history.png": "/zslr/static/media/history.36abb4cd.png",
-    "static/media/life.png": "/zslr/static/media/life.aa547aa1.png",
+    "static/media/culture.png": "/zslr/static/media/culture.fa814450.png",
+    "static/media/history.png": "/zslr/static/media/history.ad4d4adf.png",
+    "static/media/life.png": "/zslr/static/media/life.af9f078a.png",
     "static/media/online.png": "/zslr/static/media/online.f5871826.png",
     "static/media/App.scss": "/zslr/static/media/工種特色背景.0af5eaf8.png",
-    "static/media/pro-giant.png": "/zslr/static/media/pro-giant.06d4c683.png",
+    "static/media/pro-giant.png": "/zslr/static/media/pro-giant.83321103.png",
     "static/media/國際盛宴.png": "/zslr/static/media/國際盛宴.9b83cc66.png",
     "static/media/文創氛圍.png": "/zslr/static/media/文創氛圍.dd11c51e.png",
     "static/media/日常散策.png": "/zslr/static/media/日常散策.9e847feb.png",
@@ -59,8 +59,8 @@
   "entrypoints": [
     "static/js/runtime-main.191d050c.js",
     "static/css/2.a2561113.chunk.css",
-    "static/js/2.1dff8783.chunk.js",
+    "static/js/2.97bd1f0e.chunk.js",
     "static/css/main.be2b20ab.chunk.css",
-    "static/js/main.138fb6c2.chunk.js"
+    "static/js/main.d9e06436.chunk.js"
   ]
 }
