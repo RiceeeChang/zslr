@@ -195,10 +195,13 @@ a {
       }
     }
     &:nth-child(2), &:nth-child(3) {
-      .modal-button img { width: 278px;}
-      border: 0;
-      padding: 0;
-      margin: 0;
+      .modal-button img { 
+        width: 278px;
+        border: 0;
+        padding: 0;
+        margin: 0;
+      }
+      
     }
   }
 }
@@ -335,9 +338,10 @@ a {
 }
 
 .modal-button {
-  background: none!important;
+  background: none;
   border: none;
-  padding: 0!important;
+  padding: none;
+  margin: none;
 }
 
 .modal {
@@ -532,18 +536,18 @@ a {
 }
 .position-2B {
   top: 118px;
-  right: 469px;
+  right: 470px;
 }
 .position-3A {
   top: 106px;
-  right: 359px;
+  right: 360px;
 }
 .position-3B {
   top: 106px;
-  right: 450px;
+  right: 453px;
 }
 .position-3C {
-  top: 404px;
+  top: 406px;
   right: 515px;
 }
 .position-14A {
