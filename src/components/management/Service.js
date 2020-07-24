@@ -42,8 +42,8 @@ const MyModal = (props) => {
         <div>
             <button className='modal-button' onClick={() => setVisible(true)}><img src={props.button} alt='service'/></button>
             <Rodal 
-                width={838}
-                height={472}
+                width={910}
+                height={512}
                 visible={visible} 
                 onClose={() => setVisible(false)}
                 showCloseButton={false}

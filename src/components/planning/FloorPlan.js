@@ -86,8 +86,8 @@ const FloorPlan = (props) => {
             </div>
 
             <Rodal 
-                width={1024}
-                height={648}
+                width={1112}
+                height={707}
                 visible={visibleA}
                 onClose={() => setVisibleA(false)}
                 showCloseButton={true}
@@ -99,8 +99,8 @@ const FloorPlan = (props) => {
                 <a className='online' target='_blank' rel="noopener noreferrer" href='https://720yun.com/t/bfvkshfbd29?scene_id=50231611'><img src={require('../../img/floor/online.png')} alt='online' /></a>
             </Rodal>
             <Rodal 
-                width={1024}
-                height={648}
+                width={1112}
+                height={707}
                 visible={visibleB}
                 onClose={() => setVisibleB(false)}
                 showCloseButton={true}
@@ -111,8 +111,8 @@ const FloorPlan = (props) => {
                 <img src={require('../../img/floor/B.png')} alt='B room'/>
             </Rodal>
             <Rodal 
-                width={1024}
-                height={648}
+                width={1112}
+                height={707}
                 visible={visibleC}
                 onClose={() => setVisibleC(false)}
                 showCloseButton={true}

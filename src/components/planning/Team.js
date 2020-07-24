@@ -25,11 +25,11 @@ const Team = (props) => {
 const MyModal = (props) => {
     const [visible, setVisible] = useState(false);
     return (
-        <div>
+        <div className="team-button">
             <button className='modal-button' onClick={() => setVisible(true)}><img src={props.button} alt='team'/></button>
             <Rodal 
-                width={863}
-                height={444}
+                width={938}
+                height={481}
                 visible={visible} 
                 onClose={() => setVisible(false)}
                 showCloseButton={false}
