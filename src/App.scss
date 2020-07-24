@@ -338,10 +338,10 @@ a {
 }
 
 .modal-button {
-  background: none;
-  border: none;
-  padding: none;
-  margin: none;
+  background: none!important;
+  border: none!important;
+  padding: none!important;
+  margin: none!important;
 }
 
 .modal {
@@ -544,7 +544,7 @@ a {
 }
 .position-3B {
   top: 106px;
-  right: 453px;
+  right: 455px;
 }
 .position-3C {
   top: 406px;
