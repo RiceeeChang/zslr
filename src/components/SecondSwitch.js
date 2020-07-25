@@ -7,7 +7,7 @@ const SecondSwitch = (props) => {
             <Switch>
             {
                 props.items.map((item, i) => (
-                    <Route key={i} exact path={`${props.url}${item.path}`} component={item.component}/>
+                    <Route key={i} exact={true} path={`${props.url}${item.path}`} component={item.component}/>
                 ))
             }
             </Switch>

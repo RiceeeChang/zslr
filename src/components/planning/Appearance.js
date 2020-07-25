@@ -1,19 +1,40 @@
 import React from 'react'
+import { BrowserRouter, Switch, Route, NavLink } from 'react-router-dom'
 
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from 'react-responsive-carousel';
+import 'react-inner-image-zoom/lib/InnerImageZoom/styles.min.css';
+import InnerImageZoom from 'react-inner-image-zoom';
 
 const Appearance = (props) => {
 
     return (
-        <Carousel renderThumbs={(children) => {}}>
+        <BrowserRouter basename={ process.env.PUBLIC_URL }>
+            <Switch >
+                <Route exact path="/architectual-planning/architectual-appearance" component={Page1}></Route>
+                <Route exact path="/architectual-planning/architectual-appearance/2" component={Page2}></Route>
+            </Switch>
+        </BrowserRouter>
+        
+    )
+}
+
+const Page1 = (props) => {
+    return (
+        <div className='page1'>
+            <img className='title' src={require('../../img/appearance/ap01.png')} alt='title' />
             <div>
-                <img src={require('../../img/appearance/01.png')} alt='1'/>
+                <InnerImageZoom className='south-west' src={require('../../img/appearance/south_west.png')} zoomSrc={require('../../img/appearance/south_west_zoom.png')} />
+                <InnerImageZoom src={require('../../img/appearance/north_east.png')} zoomSrc={require('../../img/appearance/north_east_zoom.png')} />
             </div>
-            <div>
-                <img src={require('../../img/appearance/02.png')} alt='2'/>
-            </div>
-        </Carousel>
+            <NavLink to="/architectual-planning/architectual-appearance/2"><span className="next-button"></span></NavLink>
+        </div>
+    )
+}
+const Page2 = (props) => {
+    return (
+        <div>
+            <NavLink to="/architectual-planning/architectual-appearance"><span className="prev-button"></span></NavLink>
+            <img style={{width: "100vw"}} src={require('../../img/appearance/02.png')} alt='2'/>
+        </div>
     )
 }
 
