@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f0c3a4da950964283c6c0793c5bf70ab",
+    "revision": "53b2541f3ba58c3012a52d7c3bbde042",
     "url": "/zslr/index.html"
   },
   {
