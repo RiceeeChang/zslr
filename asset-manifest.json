@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/zslr/static/css/main.4dfd31cb.chunk.css",
-    "main.js": "/zslr/static/js/main.1df46b12.chunk.js",
-    "main.js.map": "/zslr/static/js/main.1df46b12.chunk.js.map",
+    "main.js": "/zslr/static/js/main.7db28a4a.chunk.js",
+    "main.js.map": "/zslr/static/js/main.7db28a4a.chunk.js.map",
     "runtime-main.js": "/zslr/static/js/runtime-main.191d050c.js",
     "runtime-main.js.map": "/zslr/static/js/runtime-main.191d050c.js.map",
     "static/css/2.a2561113.chunk.css": "/zslr/static/css/2.a2561113.chunk.css",
     "static/js/2.01841bad.chunk.js": "/zslr/static/js/2.01841bad.chunk.js",
     "static/js/2.01841bad.chunk.js.map": "/zslr/static/js/2.01841bad.chunk.js.map",
     "index.html": "/zslr/index.html",
-    "precache-manifest.dfdeef116b2004a474fa52f141ece7c1.js": "/zslr/precache-manifest.dfdeef116b2004a474fa52f141ece7c1.js",
+    "precache-manifest.dec9abab4cecf4cb52ec43ce460485b9.js": "/zslr/precache-manifest.dec9abab4cecf4cb52ec43ce460485b9.js",
     "service-worker.js": "/zslr/service-worker.js",
     "static/css/2.a2561113.chunk.css.map": "/zslr/static/css/2.a2561113.chunk.css.map",
     "static/css/main.4dfd31cb.chunk.css.map": "/zslr/static/css/main.4dfd31cb.chunk.css.map",
@@ -61,6 +61,6 @@
     "static/css/2.a2561113.chunk.css",
     "static/js/2.01841bad.chunk.js",
     "static/css/main.4dfd31cb.chunk.css",
-    "static/js/main.1df46b12.chunk.js"
+    "static/js/main.7db28a4a.chunk.js"
   ]
 }
