@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc85cb4bcbcbfa588e8a586ae9228c9d",
+    "revision": "4ef3e5c55b9633c19ad4fb6a73b7e702",
     "url": "/zslr/index.html"
   },
   {
-    "revision": "718c632088d24690cf9a",
-    "url": "/zslr/static/css/2.163a5f88.chunk.css"
+    "revision": "79d08c8b6ffb57d322fb",
+    "url": "/zslr/static/css/2.a2561113.chunk.css"
   },
   {
-    "revision": "7502906e7a0d10e6e7be",
-    "url": "/zslr/static/css/main.8785fe6a.chunk.css"
+    "revision": "ee4c2542c9207d8816b2",
+    "url": "/zslr/static/css/main.4dfd31cb.chunk.css"
   },
   {
-    "revision": "718c632088d24690cf9a",
-    "url": "/zslr/static/js/2.2dbaf745.chunk.js"
+    "revision": "79d08c8b6ffb57d322fb",
+    "url": "/zslr/static/js/2.01841bad.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/zslr/static/js/2.2dbaf745.chunk.js.LICENSE.txt"
+    "url": "/zslr/static/js/2.01841bad.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7502906e7a0d10e6e7be",
-    "url": "/zslr/static/js/main.1578e776.chunk.js"
+    "revision": "ee4c2542c9207d8816b2",
+    "url": "/zslr/static/js/main.1df46b12.chunk.js"
   },
   {
     "revision": "bb2591f659bfb970425f",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4f46004398ac99ba78b54db1eb660075",
     "url": "/zslr/static/media/01.4f460043.png"
+  },
+  {
+    "revision": "5667c12e913721dcd65e2eb7bab87ed7",
+    "url": "/zslr/static/media/01.5667c12e.png"
   },
   {
     "revision": "813bf8541946a1870ee38fe1921ede37",
@@ -60,16 +64,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zslr/static/media/02.44d1f5c4.png"
   },
   {
+    "revision": "4e744e10be1850943be9085d89d46f5e",
+    "url": "/zslr/static/media/02.4e744e10.png"
+  },
+  {
     "revision": "913dfd2d8d250ac17ec86b5b0e049323",
     "url": "/zslr/static/media/02.913dfd2d.png"
   },
   {
     "revision": "9fa50d4d2ce38b3d131005fb8e878573",
     "url": "/zslr/static/media/02.9fa50d4d.png"
-  },
-  {
-    "revision": "c47ad485ab0d5be44cfe1ff98e5b57d0",
-    "url": "/zslr/static/media/02.c47ad485.png"
   },
   {
     "revision": "ef44d23091addad4db61c49426233210",
@@ -120,8 +124,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zslr/static/media/05.53479e76.png"
   },
   {
-    "revision": "dc08d75149496c31970cfddc616361ba",
-    "url": "/zslr/static/media/05.dc08d751.png"
+    "revision": "d5c8a9a5797799f191bd6db584747706",
+    "url": "/zslr/static/media/05.d5c8a9a5.png"
   },
   {
     "revision": "ed7b023a21a5f1ac54de382fcd5905be",
@@ -132,8 +136,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zslr/static/media/06.1ccef062.png"
   },
   {
-    "revision": "37b239cd0af8fc53b2c959aa608d09fc",
-    "url": "/zslr/static/media/06.37b239cd.png"
+    "revision": "4c0742b4de5c82731efccd2aa080e03f",
+    "url": "/zslr/static/media/06.4c0742b4.png"
   },
   {
     "revision": "547a5131df701bd8e9dc84e2798b37cb",
@@ -144,14 +148,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zslr/static/media/06.f924335c.png"
   },
   {
-    "revision": "7086654b8ece38c1886dbe03fb2c30c5",
-    "url": "/zslr/static/media/07.7086654b.png"
-  },
-  {
-    "revision": "8dcb0ff4736f2f8c2355371cbae5cb8e",
-    "url": "/zslr/static/media/07.8dcb0ff4.png"
-  },
-  {
     "revision": "a2f828a37d8ccb098ac7c4786f040fb3",
     "url": "/zslr/static/media/07.a2f828a3.png"
   },
@@ -160,12 +156,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zslr/static/media/07.e188abf6.png"
   },
   {
-    "revision": "6f3e6405dbfaee97c25a66c68b684a51",
-    "url": "/zslr/static/media/08.6f3e6405.png"
+    "revision": "f91912a2182468024255e4feabfccd34",
+    "url": "/zslr/static/media/07.f91912a2.png"
   },
   {
-    "revision": "af6541cd1d6b1cd73aec6acae3ded7b2",
-    "url": "/zslr/static/media/08.af6541cd.png"
+    "revision": "00cb1290b0f15b9f903217be980b678b",
+    "url": "/zslr/static/media/08.00cb1290.png"
+  },
+  {
+    "revision": "6f3e6405dbfaee97c25a66c68b684a51",
+    "url": "/zslr/static/media/08.6f3e6405.png"
   },
   {
     "revision": "d6adaa5c5ce47179c65e53d563c4db94",
@@ -188,24 +188,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zslr/static/media/12.503ed5a0.png"
   },
   {
-    "revision": "d0b24f6a56b800f2a5f2c248a70ad6e6",
-    "url": "/zslr/static/media/14F.d0b24f6a.png"
+    "revision": "667055b889ff1a4c5e2d9e73a7aa22ea",
+    "url": "/zslr/static/media/14F.667055b8.png"
   },
   {
-    "revision": "1b3f5b99c16c2ecd1e872cad85cb2804",
-    "url": "/zslr/static/media/15F.1b3f5b99.png"
+    "revision": "8ae05e091a8d1d9759384fdaec857eb5",
+    "url": "/zslr/static/media/15F.8ae05e09.png"
   },
   {
-    "revision": "8ef54c15b07eb96113194726b7cbb69b",
-    "url": "/zslr/static/media/1F.8ef54c15.jpg"
+    "revision": "9040803fa10c258031641fb960db0d4c",
+    "url": "/zslr/static/media/1F.9040803f.png"
   },
   {
-    "revision": "542ae8d1a97b7b6fc1f769b82d35d6f4",
-    "url": "/zslr/static/media/2F.542ae8d1.jpg"
+    "revision": "eabd872a3e1f3acc2a566d05e7d21000",
+    "url": "/zslr/static/media/2F.eabd872a.png"
   },
   {
-    "revision": "d60ff0dd0e0a153e34ba2224f9508f91",
-    "url": "/zslr/static/media/3F.d60ff0dd.png"
+    "revision": "e735df04c666f83e315413c27e46c5a5",
+    "url": "/zslr/static/media/3F.e735df04.png"
   },
   {
     "revision": "6916dd4e13ff25e9991531add91eecdf",
@@ -216,16 +216,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zslr/static/media/B.584fc66d.png"
   },
   {
-    "revision": "7ee075c9db2d0d16a08539b87cf1732c",
-    "url": "/zslr/static/media/B1F.7ee075c9.jpg"
+    "revision": "d33c8ca954a6cfd75ed69aa04fcf74db",
+    "url": "/zslr/static/media/B1F.d33c8ca9.png"
   },
   {
-    "revision": "68699974020fdaf865e2a56a04fe20e3",
-    "url": "/zslr/static/media/B2F.68699974.jpg"
+    "revision": "e2c65bc2a7c7824130a0366a91ab75b7",
+    "url": "/zslr/static/media/B2F.e2c65bc2.png"
   },
   {
-    "revision": "78a835fafe63f766f091491578d4d7b8",
-    "url": "/zslr/static/media/B3F.78a835fa.jpg"
+    "revision": "52281e29a6141cfc7d049efd9f4cd314",
+    "url": "/zslr/static/media/B3F.52281e29.png"
   },
   {
     "revision": "42e6b9243ec10d2fe933a15b2a860a43",
@@ -260,12 +260,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zslr/static/media/R1F.81d45a2d.jpg"
   },
   {
-    "revision": "b92e0d52003f2bbf286b9bdcca7314b1",
-    "url": "/zslr/static/media/R23F.b92e0d52.jpg"
-  },
-  {
-    "revision": "60f2e98ef81dbb93a4c65d4e61510521",
-    "url": "/zslr/static/media/coffee.60f2e98e.png"
+    "revision": "9245c18ec921e094e2cd99cd62c500bf",
+    "url": "/zslr/static/media/R23F.9245c18e.png"
   },
   {
     "revision": "aca3c94e45f7ba254cfb16ce6c0457bf",
@@ -276,24 +272,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zslr/static/media/culture.fa814450.png"
   },
   {
-    "revision": "e1e0190d9d0898c8cb7edcc61d452c07",
-    "url": "/zslr/static/media/food.e1e0190d.png"
-  },
-  {
     "revision": "ad4d4adfa5c5bec2aacb8466a3e85870",
     "url": "/zslr/static/media/history.ad4d4adf.png"
   },
   {
     "revision": "af9f078a912f8dce9e3a3cbb51966871",
     "url": "/zslr/static/media/life.af9f078a.png"
-  },
-  {
-    "revision": "68b34716f63b32dac5da3dbdbd1a03e9",
-    "url": "/zslr/static/media/north_east.68b34716.png"
-  },
-  {
-    "revision": "94ab695d447609948ca964d56d1c3201",
-    "url": "/zslr/static/media/north_east_zoom.94ab695d.png"
   },
   {
     "revision": "f58718261d471e33c1d17733683b7802",
@@ -306,18 +290,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "83321103709253ab981364e030452d06",
     "url": "/zslr/static/media/pro-giant.83321103.png"
-  },
-  {
-    "revision": "ccb2fd2db812a74bf5ab35e9a2ddc5b2",
-    "url": "/zslr/static/media/shopping.ccb2fd2d.png"
-  },
-  {
-    "revision": "1178dd29eb7255e75eaa5754ac0628f2",
-    "url": "/zslr/static/media/south_west.1178dd29.png"
-  },
-  {
-    "revision": "82201dbf0a6ada93680dca45f44737cb",
-    "url": "/zslr/static/media/south_west_zoom.82201dbf.png"
   },
   {
     "revision": "6d35268ebeaa150c9ae9ec4305d03011",
