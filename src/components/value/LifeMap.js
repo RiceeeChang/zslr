@@ -19,9 +19,9 @@ const All = (props) => {
     return (
         <div className="content life-map all">
             <NavLink className='title' to='/lot-value/life-map/'></NavLink>
-            <NavLink className='coffee-button' to="/lot-value/life-map/coffee"><img src={require('../../img/life_map/coffee.png')} alt="coffee" /></NavLink>
-            <NavLink className='shopping-button' to="/lot-value/life-map/shopping"><img src={require('../../img/life_map/shopping.png')} alt="shopping" /></NavLink>
-            <NavLink className='food-button' to="/lot-value/life-map/food"><img src={require('../../img/life_map/food.png')} alt="food" /></NavLink>
+            <NavLink className='coffee-button' to="/lot-value/life-map/coffee"></NavLink>
+            <NavLink className='shopping-button' to="/lot-value/life-map/shopping"></NavLink>
+            <NavLink className='food-button' to="/lot-value/life-map/food"></NavLink>
         </div>
     )
 }
@@ -30,7 +30,7 @@ const Coffee = (props) => {
     return (
         <div className="content life-map coffee">
             <NavLink className='title' to='/lot-value/life-map/'></NavLink>
-            <NavLink className='coffee-button' to="/lot-value/life-map/coffee"><img src={require('../../img/life_map/coffee.png')} alt="coffee" /></NavLink>
+            <NavLink className='coffee-button' to="/lot-value/life-map/coffee"></NavLink>
             <NavLink className='shopping-button' to="/lot-value/life-map/shopping"></NavLink>
             <NavLink className='food-button' to="/lot-value/life-map/food"></NavLink>
             <div className="mdot m-p1"></div>
@@ -60,7 +60,7 @@ const Shopping = (props) => {
         <div className="content life-map shopping">
             <NavLink className='title' to='/lot-value/life-map/'></NavLink>
             <NavLink className='coffee-button' to="/lot-value/life-map/coffee"></NavLink>
-            <NavLink className='shopping-button' to="/lot-value/life-map/shopping"><img src={require('../../img/life_map/shopping.png')} alt="shopping" /></NavLink>
+            <NavLink className='shopping-button' to="/lot-value/life-map/shopping"></NavLink>
             <NavLink className='food-button' to="/lot-value/life-map/food"></NavLink>
             <div className="mdot m-p19"></div>
             <div className="mdot m-p20"></div>
@@ -88,7 +88,7 @@ const Food = (props) => {
             <NavLink className='title' to='/lot-value/life-map/'></NavLink>
             <NavLink className='coffee-button' to="/lot-value/life-map/coffee"></NavLink>
             <NavLink className='shopping-button' to="/lot-value/life-map/shopping"></NavLink>
-            <NavLink className='food-button' to="/lot-value/life-map/food"><img src={require('../../img/life_map/food.png')} alt="food" /></NavLink>
+            <NavLink className='food-button' to="/lot-value/life-map/food"></NavLink>
             <div className="mdot m-p35"></div>
             <div className="mdot m-p36"></div>
             <div className="mdot m-p37"></div>
@@ -107,8 +107,6 @@ const Food = (props) => {
             <div className="mdot m-p50"></div>
             <div className="mdot m-p51"></div>
             <div className="mdot m-p52"></div>
-            <div className="mdot m-p53"></div>
-            <div className="mdot m-p54"></div>
             <div className="mdot m-p55"></div>
             <div className="mdot m-p56"></div>
             <div className="mdot m-p57"></div>

@@ -12,14 +12,14 @@ const Feature = (props) => {
                 <MyModal background='deep' button={(<p>新日鐵制震壁<br/>黏彈性阻尼系統</p>)} content={require('../../img/feature/01.png')} />
                 <MyModal background='light' button={(<p>1F-2F<br/>地震力最大處<br/>增加ALFA SAFE<br/>耐震系統</p>)} content={require('../../img/feature/02.png')} />
                 <MyModal background='deep' button={(<p>地盤改良</p>)} content={require('../../img/feature/03.png')} />
-                <div className='title button'>
-                    <h1>工種特色</h1>
-                    <h2>BUILDING MATERIAL EQUIPMENT</h2>
-                </div>
+                
                 <MyModal background='light' button={(<p>淨水器</p>)} content={require('../../img/feature/04.png')} />
                 <MyModal background='deep' button={(<p>綠建築</p>)} content={require('../../img/feature/05.png')} />
                 <MyModal background='light' button={(<p>YKK</p>)} content={require('../../img/feature/06.png')} />
-                <MyModal background='deep' button={(<p>衛浴設備</p>)} content={require('../../img/feature/07.png')} />
+            </div>
+            <div className='title button'>
+                <h1>工種特色</h1>
+                <h2>BUILDING MATERIAL EQUIPMENT</h2>
             </div>
         </div>
     )

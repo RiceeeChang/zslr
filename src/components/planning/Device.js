@@ -5,7 +5,6 @@ import { Carousel } from 'react-responsive-carousel';
 
 
 const Device = (props) => {
-
     return (
         <Carousel renderThumbs={(children) => {}}>
             <div>
