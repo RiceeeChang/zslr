@@ -430,8 +430,13 @@ $feature-grid-width: 217px;
 
 .floor-card {
   display: flex;
-  /*width: 800px;
-  height: 648px;*/
+  width: 800px;
+  height: 707px;
+
+  img {
+    width: 100%;
+    height: 100%
+  }
 }
 .carousel__inner-slide {
   background-color: $background-color;
